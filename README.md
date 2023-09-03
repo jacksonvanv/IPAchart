@@ -1,2 +1,3 @@
 # IPAchart
-Interactive IPA Chart
+
+https://ipachart.netlify.app/
