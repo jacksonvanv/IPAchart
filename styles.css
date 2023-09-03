@@ -1,0 +1,123 @@
+/* Reset some default styles */
+body, h1, h2, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Base styles for the document */
+body {
+    font-family: 'Sans-serif Workhorse', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    background-color: #fff;
+    color: #333;
+    text-align: left;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.container {
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f8f8;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Articulation button styles */
+.ipa-button {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 16px; /* Reduced font size for buttons */
+    cursor: pointer;
+    border: 0px solid #ccc; /* Added a border */
+    border-radius: 5px;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+    margin: 2px;
+}
+
+/* Voiceless button style */
+.ipa-button.voiceless {
+    background-color: rgba(255, 0, 0, 0.6); /* Transparent red */
+}
+
+/* Voiced button style */
+.ipa-button.voiced {
+    background-color: rgba(0, 0, 255, 0.6); /* Transparent blue */
+}
+
+/* Unrounded button style */
+.ipa-button.unrounded {
+    background-color: rgba(0, 128, 0, 0.7); /* Transparent green */
+}
+
+
+/* Rounded button style */
+.ipa-button.rounded {
+    background-color: rgba(128, 0, 128, 0.7); /* Transparent purple */
+}
+
+
+/* Impossible button style */
+.ipa-button.impossible {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Hover effect for buttons */
+.ipa-button:hover {
+    background-color: rgba(128, 128, 128, 0.7); /* Slightly transparent gray */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+    h1, h2 {
+        font-size: 22px;
+    }
+}
