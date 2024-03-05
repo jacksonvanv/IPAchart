@@ -13,5 +13,4 @@ Some key elements of my development process include:
 4. Making the tables responsive to different window sizes and devices
 
 Coming soon:
-1. Displaying a more in-depth vowel chart
-2. Including non-pulmonic consonants and clicks
+1. Including non-pulmonic consonants and clicks
