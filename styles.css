@@ -100,7 +100,7 @@ tr:nth-child(odd) {
 }
 
 
-/* Impossible button style */
+/* Impossible sound button style */
 .ipa-button.impossible {
     background-color: #ccc;
     cursor: not-allowed;
