@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function () {
             audioElement.play();
         }
     }
-
     const ipaButtons = document.querySelectorAll('.ipa-button[data-audio-id]');
     ipaButtons.forEach((button) => {
         button.addEventListener('click', () => {
