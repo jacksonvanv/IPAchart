@@ -1,6 +1,6 @@
 # IPA Chart
 
-Website here: https://ipachart.netlify.app/
+Website here: https://www.ipa-chart.com
 
 This is an interactive IPA (international phoentic alphabet) chart for use by linguists and language enthusiasts. The IPA is a way linguists categorize all known sounds present across all human languages. This page has common IPA tables, as well as sound files that show the user the pronunciation of the phoneme.
 
